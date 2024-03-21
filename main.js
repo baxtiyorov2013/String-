@@ -4,7 +4,7 @@ let letter = prompt("Istagan harfni kiriting!")
 let check = name1.toLowerCase().includes(letter.toLowerCase());
 
 if (check) {
-    alert("Siz kirtgan harf mavjud")
+    alert("Siz kirtgan " + letter + "harf mavjud")
 } else (
-    alert("Siz kiritgan harf mavjud emas")
+    alert("Siz kiritgan " + letter + "harf mavjud emas")
 )
